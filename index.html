@@ -3,26 +3,93 @@
 <head>
     <meta charset="UTF-8">
    <link rel="shortcut icon" href="./image/logo.jpg" type="image/x-icon"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+   <script src="https://cdn.tailwindcss.com"></script>
     <title>web devlopment class</title>
 </head>
-<body>
+<body class="m-[50px] bg-slate-400 ">
     <style>
-
+    
     </style>
     <!-- heading tag haru -->
-    <h1>hi this is web class</h1>
+    <!-- <h1>hi this is web class</h1>
     <h2>hi this is web class</h2>
     <h3>hi this is web class</h3>
     <h4>hi this is web class</h4>
     <h5>hi this is web class</h5>
-    <h6>hi this is web class</h6>
+    <h6>hi this is web class</h6> -->
+
     <!-- yade kunai text haru lakhnu paro vane "p tagko use garnu paro " -->
-    <p style="width: 300px;">Web development is <span style="background-color: aquamarine; font-size: larger;">the work involved</span>  in developing a website for the Internet (World Wide Web) or an intranet (a private network).[1] Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services. A more comprehensive list of tasks to which Web development commonly refers, may include Web engineering, Web design, Web content development, client liaison, client-side/server-side scripting, Web server and network security configuration, and e-commerce development.</p>
+    <!-- <p style="width: 300px;">Web development is <span style="background-color: aquamarine; font-size: larger;">the work involved</span>  in developing a website for the Internet (World Wide Web) or an intranet (a private network).[1] Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services. A more comprehensive list of tasks to which Web development commonly refers, may include Web engineering, Web design, Web content development, client liaison, client-side/server-side scripting, Web server and network security configuration, and e-commerce development.</p> -->
 <!-- link garnu parda "a tag ko prayog garnu parxa" -->
-    <a href="https://www.pexels.com/search/computer/">click me</a>
+    <!-- <a href="https://www.pexels.com/search/computer/">click me</a> -->
     <!-- yade hamro wesite ma photo launu paro vane imag ko prayou gar -->
-<img src="./image/yo chai ma ho.jpg " style="height: 200px; width: 300px;" alt="hero image">
+<!-- <img src="./image/yo chai ma ho.jpg " style="height: 200px; width: 300px;" alt="hero image"> -->
+
+<!-- card -->
+<!-- <div class="h-[300px] w-[200px] bg-green-300  mt-8 ml-8 p-6 rounded-[20px]">
+    <img src="./image/yo chai ma ho.jpg" class="rounded-xl" alt="">
+    <h2 class="text-2xl font-semibold text-rose-600">Dipu Lwagun</h2>
+    <p>fullstack devloper</p>
+</div> -->
+<form action="">
+    <label for="fname">first name</label>
+    <input type="text" id="fname" required placeholder="your firsr name" value=""> <br><br>
+
+    <label for="lname"> last name</label>
+    <input type="text" id="lname" required placeholder="last name"><br> <br>
+
+    <label for="age">Age</label>
+    <input type="number" id="age"required><br><br>
+
+    <label for="email">email</label>
+    <input type="email" id="email"><br><br>
+
+    <label for="password">password</label>
+    <input type="password" id="password"><br>
+
+    <label for="country">gender :</label><br>
+    <input type="radio" name="gender" id="male">
+    <label for="male">male</label><br>
+
+    <input type="radio" name="gender" id="female">
+    <label for="female">female</label><br>
+
+
+    <input type="radio" name="gender" id="others">
+    <label for="others">others</label><br><br>
+    
+    <label for="fev.language">fev. language</label><br>
+
+    <input type="checkbox" name="heml" id="html">
+    <label for="html">html</label><br>
+
+    
+    <input type="checkbox" name="C" id="C">
+    <label for="C">C</label><br>
+
+    <input type="checkbox" name="java" id="java">
+    <label for="java">java</label><br>
+    <input type="checkbox" name="remember me" id="remember me">
+    <label for="remember me">remember me</label><br><br>
+
+
+    <label for="dob">dob</label>
+    <input type="date"><br><br>
+
+    <label for="">0</label>
+    <input type="range" name="vol" id="vol">
+    <label for="">100</label><br><br>
+    
+    <label for="cv">your cv</label>
+    <input type="file" id="cv">
+<br>
+    <input type="search"><br> <br>
+    <input type="submit" value="submit">
+
+
+    
+</form>
+
 
 </body>
 </html>
