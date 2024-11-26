@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-   <link rel="shortcut icon" href="./image/logo.jpg" type="image/x-icon"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <script src="https://cdn.tailwindcss.com"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="./image/logo.jpg" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>web devlopment class</title>
-</head>
-<body class="m-[50px] bg-slate-400 ">
-    <style>
-    
-    </style>
+  </head>
+  <body class="flex justify-center items-center mt-[40px] bg-slate-400">
+    <style></style>
     <!-- heading tag haru -->
     <!-- <h1>hi this is web class</h1>
     <h2>hi this is web class</h2>
@@ -20,18 +19,18 @@
 
     <!-- yade kunai text haru lakhnu paro vane "p tagko use garnu paro " -->
     <!-- <p style="width: 300px;">Web development is <span style="background-color: aquamarine; font-size: larger;">the work involved</span>  in developing a website for the Internet (World Wide Web) or an intranet (a private network).[1] Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services. A more comprehensive list of tasks to which Web development commonly refers, may include Web engineering, Web design, Web content development, client liaison, client-side/server-side scripting, Web server and network security configuration, and e-commerce development.</p> -->
-<!-- link garnu parda "a tag ko prayog garnu parxa" -->
+    <!-- link garnu parda "a tag ko prayog garnu parxa" -->
     <!-- <a href="https://www.pexels.com/search/computer/">click me</a> -->
     <!-- yade hamro wesite ma photo launu paro vane imag ko prayou gar -->
-<!-- <img src="./image/yo chai ma ho.jpg " style="height: 200px; width: 300px;" alt="hero image"> -->
+    <!-- <img src="./image/yo chai ma ho.jpg " style="height: 200px; width: 300px;" alt="hero image"> -->
 
-<!-- card -->
-<!-- <div class="h-[300px] w-[200px] bg-green-300  mt-8 ml-8 p-6 rounded-[20px]">
+    <!-- card -->
+    <!-- <div class="h-[300px] w-[200px] bg-green-300  mt-8 ml-8 p-6 rounded-[20px]">
     <img src="./image/yo chai ma ho.jpg" class="rounded-xl" alt="">
     <h2 class="text-2xl font-semibold text-rose-600">Dipu Lwagun</h2>
     <p>fullstack devloper</p>
 </div> -->
-<form action="">
+    <!-- <form action="">
     <label for="fname">first name</label>
     <input type="text" id="fname" required placeholder="your firsr name" value=""> <br><br>
 
@@ -88,8 +87,38 @@
 
 
     
-</form>
+</form> -->
+    <div class="bg-white h-[250px] w-[230px] text-center rounded-xl">
+      <h2 class="pt-6 text-xl font-semibold">Log in</h2>
+      <form action="" class="mt-4">
+        <input
+          type="text"
+          placeholder="Username"
+          class="border-[1px] border-gray-500 px-2 rounded-md"
+          required
+
+        /><br /><br />
+
+        <input
+          type="password"
+          placeholder="Password"
+          class="border-[1px] border-gray-500 px-2 rounded-md"
+          required
+        />
+        <br /><br>
+        <input type="submit" value="Log in" class=" bg-blue-600 text-white px-[80px] rounded-md" onclick=" alert('form is login') " >
 
 
-</body>
+        <div class="flex justify-between items-center px-2">
+            <div>
+                <input type="checkbox" id="cb" required / >
+                <label for="cb" class="text-[12px]">Remember me</label>
+            </div>
+            <div>
+                <a href="#" class="text-[12px] text-blue-600">Forget password?</a>
+            </div>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
